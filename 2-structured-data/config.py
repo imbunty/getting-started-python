@@ -55,7 +55,7 @@ CLOUDSQL_CONNECTION_NAME = 'our-fantastic-project:us-central1:library'
 
 # Alternatively, you could use a local MySQL instance for testing.
 LOCAL_SQLALCHEMY_DATABASE_URI = (
-    'mysql+pymysql://{user}:{password}@127.0.0.1:3306/{database}').format(
+    'mysql+pymysql://{user}:{password}@35.193.40.138:3306/{database}').format(
         user=CLOUDSQL_USER, password=CLOUDSQL_PASSWORD,
         database=CLOUDSQL_DATABASE)
 

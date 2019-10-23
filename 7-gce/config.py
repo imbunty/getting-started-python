@@ -55,7 +55,7 @@ CLOUDSQL_CONNECTION_NAME = '35.193.40.138'
 
 # Alternatively, you could use a local MySQL instance for testing.
 LOCAL_SQLALCHEMY_DATABASE_URI = (
-    'mysql+pymysql://root:root@35.193.40.138:3306/{database}').format(
+    'mysql+pymysql://root:root@35.193.40.138:3306/bookshelf').format(
         user=CLOUDSQL_USER, password=CLOUDSQL_PASSWORD,
         database=CLOUDSQL_DATABASE)
 
